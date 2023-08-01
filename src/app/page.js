@@ -3,7 +3,6 @@
 import { ParticlesNext } from "@/components/Particles";
 import Transition from "@/components/Transition";
 import Image from "next/image";
-import Link from "next/link";
 import { GoLinkExternal } from "react-icons/go";
 
 export default function Home() {
@@ -30,6 +29,7 @@ export default function Home() {
               fill
               alt="Image Profile"
               className="object-contain"
+              priority={true}
             />
           </div>
           {/* Text Content */}

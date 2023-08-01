@@ -27,12 +27,3 @@ export default function Switcher() {
     </>
   );
 }
-
-// const [darkSide, setDarkSide] = useState(
-//   colorTheme === "light" ? true : false
-// );
-
-// const toggleDarkMode = (checked) => {
-//   setTheme(colorTheme);
-//   setDarkSide(checked);
-// };

@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { FaSquareFacebook } from "react-icons/fa6";
 import Switcher from "./Switch";
-import Image from "next/image";
 import { Roboto } from "next/font/google";
 
 const links = [
@@ -28,8 +27,6 @@ const links = [
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["500", "700"],
-  display: "swap",
-  style: ['italic', 'normal'],
   
 })
 

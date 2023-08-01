@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Menu from "./Menu";
 import { FaSquareFacebook } from "react-icons/fa6";
-import Mode from "./Mode";
 import Switcher from "./Switch";
 const links = [
   {
