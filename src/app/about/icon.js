@@ -16,11 +16,16 @@ export default function Icon() {
     (
       // ImageResponse JSX element
       <div
-        className='
-            w-full h-full bg-[red] text-white font-bold
-            items-center justify-center flex text-[24px]
-
-        '
+        style={{
+          fontSize: 24,
+          background: 'black',
+          width: '100%',
+          height: '100%',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          color: 'white',
+        }}
       >
         A
       </div>
