@@ -17,7 +17,7 @@ export default function Icon() {
       // ImageResponse JSX element
       <div
         className='
-            w-full h-full bg-red-400 text-white font-bold
+            w-full h-full bg-[red] text-white font-bold
             items-center justify-center flex text-[24px]
 
         '
