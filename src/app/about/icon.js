@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/server'
  
 // Route segment config
+export const runtime = 'edge'
 
 // Image metadata
 export const size = {
@@ -9,7 +10,6 @@ export const size = {
 }
 export const contentType = 'image/icon'
 
-export const runtime = 'edge'
 // Image generation
 export default function Icon() {
   return new ImageResponse(
