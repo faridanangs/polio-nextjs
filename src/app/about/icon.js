@@ -1,6 +1,7 @@
 import { ImageResponse } from 'next/server'
  
 // Route segment config
+export const runtime = 'edge'
 
 // Image metadata
 export const size = {
@@ -9,23 +10,17 @@ export const size = {
 }
 export const contentType = 'image/icon'
 
-export const runtime = 'edge'
 // Image generation
 export default function Icon() {
   return new ImageResponse(
     (
       // ImageResponse JSX element
       <div
-      style={{
-        fontSize: 24,
-        background: 'black',
-        width: '100%',
-        height: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        color: 'red'
-      }}
+        className='
+            w-full h-full bg-[red] text-white font-bold
+            items-center justify-center flex text-[24px]
+
+        '
       >
         A
       </div>
